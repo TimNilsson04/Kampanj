@@ -1,9 +1,12 @@
 :root {
     --color-light-transparent: hsla(0, 0%, 94%, 0.9);
-    --color-primary: hsl(20deg 40% 53%);
+    --color-primary: #52DEE5;
     --color-secondary: hsl(344deg 45% 13%);
 
     --font-headline: serif;
+}
+body{
+    background-color: #EEE5E9;
 }
 
 a:hover {
@@ -19,15 +22,16 @@ h1, h2, h3 {
 }
 
 .navbar {
-    background-color: var(--color-light-transparent);
+    background-color: #92DCE5;
     position: sticky;
     top: 0;
 }
 
 .hero {
-    background-image: url(../img/goh-rhy-yan-CCxWLAx0qmk-unsplash.jpg);
+
+    background-image: url(../img/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg);
     background-size: cover;
-    background-position: left top;
+    background-position: center;
     position: relative;
 }
 

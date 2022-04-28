@@ -1,55 +1,157 @@
 <!DOCTYPE html>
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        .container {
-            margin-top: 5rem;
-            width: 100%;
-        }
-        p {
-            margin-bottom: 3rem;
-        }
-        .swatches {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: grid;
-            gap: 1rem;
-            grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
 
-        }
-        .swatches li {
-            aspect-ratio: 1;
-            display: grid;
-            place-content: center;
-            border-radius: .5rem;
-            font-size: 3rem;
-            text-align: center;
-            border: 1px solid var(--color-shadow);
-        }
-    </style>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/theme-1.css" /> <!-- prova att ta bort -->
+    <title>Kampanj</title>
 </head>
+
 <body>
+    <!-- https://jensnti.github.io/wu-exempel/hamburgermeny/ -->
+    <nav class="navbar">
+        <a class="brand" href="#">Jämställdhet</a>
+        <button class="navbar__toggle">
+            <span class="material-icons"> menu </span>
+        </button>
+        <div class="navbar__collapse">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#intro">Intro</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="container">
+            <h1>Teknik För Alla</h1>
+            <p>
+
+
+            </p>
+            <!-- https://jensnti.github.io/wu-exempel/knappar/ -->
+            <div class="cta">
+                <a href="#cta" class="btn">Call to action</a>
+            </div>
+        </div>
+        <!-- kolla css vad denna gör, ligger över hela hero för att texten ska gå att läsa, kontrast -->
+        <div class="overlay"></div>
+    </header>
+    <!-- https://jensnti.github.io/wu-exempel/media-queries/ -->
     <main class="container">
-        <h1>Bygg din kampanj</h1>
-        <p>Välj en mall/tema kopiera html filen, skapa en tema-dittnamn.css och länka den.</p>
-        <ul class="swatches">
-            <li>
-                <a href="theme-no.html">Utan tema</a>
-            </li>
-            <li>
-                <a href="theme-1.html">Tema 1</a>
-            </li>
-            <li>
-                <a href="theme-2.html">Tema 2</a>
-            </li>
-        </ul>
+        <section class="intro" id="intro">
+            <h2>Framtiden inom teknik</h2>
+            <p>
+                Teknik är framtiden, inom den värld vi befinner oss i så kommer vi framöver bara skapa mer och mera inom
+                teknik.
+                Tekniken är mycket viktig för både män och kvinnor, den används inom många ämnen från ditt kylskåp, bil
+                och alla saker runt omkring dig.
+                Utan teknik så hade inte ditt dagliga liv kunnat fungera som det gör just nu.
+                Enligt studien (Elin Östblom, Per Braconier, 2021-10-27, Ny gymnasiestatistik från Skolverket visar att
+                alltför få tjejer väljer teknikutbildningar) så är det bara 18.3% kvinnor av 11500 personer som söker
+                tekniska linjen år 2022.
+                Därför tycker jag att fler personer ska söka till tekniska linjen, särskilt tjejer i gymnasiet
+            </p>
+            <p>
+                Teknik är en stor del av människans historia, alla saker som finns runt omkring dig är gjort med hjälp
+                av teknik. Stolen du sitter på eller bordet du äter mat på är gjord med hjälp av teknik, allt som är
+                gjort har någon person tänkt på och förbättrat och utvecklat ännu mera. Därför tycker jag det inte borde
+                finnas någon anledning till varför tjejer inte ska gå tekniklinjen. Med fler tjejer inom teknikbranschen
+                skulle perspektiven breddas och därmed skulle fler nya upptäckter göras inom tekniken. Många delar med
+                livet är att göra saker lättare och enklare att leva och detta kan göras med hjälp av teknik.
+            </p>
+            <h3>Olika jobben man kan få</h3>
+            <p>
+                Inom tekniken så finns många olika möjligheter till jobb, detta kan inkludera civilingenjör,
+                byggingenjör och 3d grafiker med mera. Detta betyder att teknikprogrammet kan ge en säker lön för alla
+                som tar studenten. Detta innebär att om fler kvinnor skulle ha ett tekniskt yrke så skulle fördelning i
+                samhället mellan kvinnodominerade och mansdominerade yrken jämnas ut mer.
+
+            </p>
+            <p>
+                Som sagt så finns det många olika jobb inom teknik och det skapar också många olika intressanta ämnen.
+                Tekniklinjen är allt från kvarkar (Atomers byggstenar) till universums delar, man kan lära sig allting
+                som finns att lära sig. Däremot kan det vara svårt att lära sig allt så oftast brukar man få en grund i
+                de flesta ämnena och gå utifrån det man gillar mest.
+            </p>
+        </section>
+        <section class="about">
+            <div>
+                <h2>Där i gamla, själv.</h2>
+                <p>
+                    Många kan tycka att teknikprogrammet har mycket svåra ämnen t.ex svårare matte och fysik. Men så
+                    länge man lägger ner lite extra tid på matten så kommer det att gå mycket bättre än vad man tror.
+                    Annars så finns det många andra ämnen som är mycket roligare som programmering, webbutveckling och
+                    digitalt skapande. Däremot är dessa ämnen bara i informations och media teknikprogrammet. Detta är
+                    på grund av att det finns många olika teknikprogram så man kan prata med studie och yrkesvägledaren
+                    för att hitta det man tycker är mest intressant.
+
+                </p>
+                <p>
+                    Med teknikprogrammet kan man skapa en säker framtid för dig och för andra runt omkring dig. Du kan
+                    vara en del av framtidens nya uppfinningar och uppbyggnaden av framtiden. Du kan lösa global
+                    uppvärmning och hitta nya sätt att fixa havets förorening, detta är varför det är så viktigt att få
+                    in fler personer till teknikprogrammet, särskilt tjejer då det behövs mer input och olika
+                    infallsvinklar från både män och kvinnor för att utveckla teknikbranschen.
+                </p>
+                <p>
+                    Tekniken är en stor del av våra liv och kommer vara det så länge vi människor finns. En jämnare
+                    fördelning av män och kvinnor inom teknikbranschen kommer att utveckla branschen mer positivt
+                    eftersom det då kommer in ett bredare perspektiv. Detta är varför jag tycker du borde vara med i
+                    skapandet av framtiden med ett säkert jobb och med stabil lön.
+
+
+                </p>
+            </div>
+            <div>
+                <img src="img/elijah-m-henderson-jRA-yoDL68M-unsplash.jpg" alt="Kvinna">
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="container">
+            <ul>
+                <li>
+                    Photo by
+                    <a
+                        href="https://unsplash.com/@armedshutter"> Ayo Ogunseinde
+                        </a>
+                    on
+                    <a
+                        href="https://unsplash.com/s/photos/man?orientation=landscape">Unsplash</a>
+                </li>
+                <li>
+                    Photo by
+                    <a
+                        href="https://unsplash.com/@elijahhenderson">Elijah M. Henderson
+                    </a>
+                    on
+                    <a
+                        href="https://unsplash.com/s/photos/woman?orientation=portrait">Unsplash</a>
+                </li>
+                <li>
+                    Källa: 
+                    <a href="https://via.tt.se/pressmeddelande/ny-gymnasiestatistik-fran-skolverket-visar-att-alltfor-fa-tjejer-valjer-teknikutbildningar?publisherId=2732851&releaseId=3309497
+                    ">VIA</a>
+                </li>
+                <li>
+                    Källa:
+                    <a href="https://www.teknikforetagen.se/nyhetscenter/nyheter/2019/ny-statistik-fran-skolverket--fortfarande-fa-tjejer-till-teknikprogrammet/
+                    https://www.gymnasium.se/yrkesguiden/yrken-efter-teknikprogrammet-12347
+                ">Teknikföretagen</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script defer src="js/menu.js"></script>
 </body>
+
 </html>

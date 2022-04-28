@@ -11,9 +11,11 @@ Skapa
 
 
 ## Vecka 17
+Min text handlar om jämställdhet, och den handlar om jämställdhet inom tekniklinjen i gymnasiet. 
+Färger: #383D3B, #EEE5E9, #7C7C7C, #92DCE5, #52DEE5
+Bilder: ![alt text](../img/elijah-m-henderson-jRA-yoDL68M-unsplash.jpg)
 
-
-
+Nästa gång ska jag fixa typsnittet och försöka göra saker mer snyggt.
 ## Vecka 18
 
 
