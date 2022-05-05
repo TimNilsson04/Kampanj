@@ -29,9 +29,9 @@ h1, h2, h3 {
 
 .hero {
 
-    background-image: url(../img/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg);
+    background-image: url(../img/jeremy-bishop-h9NU6laTNzM-unsplash.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     position: relative;
 }
 

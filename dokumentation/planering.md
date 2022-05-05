@@ -17,20 +17,19 @@ Bilder: ![alt text](../img/elijah-m-henderson-jRA-yoDL68M-unsplash.jpg)
 
 Nästa gång ska jag fixa typsnittet och försöka göra saker mer snyggt.
 ## Vecka 18
+Jag har gjort saker snyggare och skapat en shadow box, jag har däremot inte hittat en bra font. 
+Jag bytte också bilden.
 
-
-
+Nästa gång ska jag hitta ny font och försöka fina till om jag hittar något som kan göra hemsidan snyggare.
 ## Vecka 19 NP
-
+Nationella prov
 
 ## Vecka 20
 
 
 
 ## Vecka 21 Kristi himmels
-
-
-
+Ledig
 
 ## Vecka 22 
 
