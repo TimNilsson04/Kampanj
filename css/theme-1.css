@@ -3,7 +3,7 @@
     --color-primary: #52DEE5;
     --color-secondary: hsl(344deg 45% 13%);
 
-    --font-headline: serif;
+    --font-family: 'Share Tech Mono', monospace;
 }
 body{
     background-color: #EEE5E9;
@@ -18,7 +18,7 @@ footer a {
 }
 
 h1, h2, h3 {
-    font-family: var(--font-headline);
+    font-family: var(--font-family);
 }
 
 .navbar {
@@ -50,8 +50,9 @@ h1, h2, h3 {
     z-index: 1;
 }
 
+
 .btn:hover {
-    color: var(--color-light);
+    color: var(--color-dark);
     background-color: var(--color-primary);
 }
 
@@ -69,3 +70,9 @@ h1, h2, h3 {
         row-gap: 1rem;
     }
 }
+
+.logo{
+    width: 80px;
+   height: 80px;
+}
+

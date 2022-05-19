@@ -5,7 +5,7 @@
     
     --color-secondary: hsl(275, 100%, 25%);
 
-    --font-sans: "Merriweather Sans", sans-serif;
+    --font-sans: 'Work Sans', sans-serif;
 }
 
 a {
@@ -21,8 +21,8 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1rem;
-    box-shadow: 0 0 17px 0 rgb(0 0 0 / 21%);
+   padding: 0.5rem;
+    box-shadow: 0 0 35px 0 rgb(0 0 0 / 35%);
     font-size: 1.333rem;
 }
 .navbar__collapse-show {
@@ -110,7 +110,7 @@ body {
 }
 
 .container > section {
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 @media (min-width: 36rem) {
@@ -147,7 +147,7 @@ body {
     border: 1px solid transparent;
     border-radius: 0.2rem;
     font-size: 2.369rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.4s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .btn:hover {
     background-color: #52DEE5;
