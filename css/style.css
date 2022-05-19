@@ -67,6 +67,7 @@ a:hover {
 }
 .nav-link {
     color: var(--color-secondary);
+    font-family: var(--font-family);
 }
 .nav-link:hover {
     text-decoration: none;

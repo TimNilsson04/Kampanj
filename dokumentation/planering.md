@@ -25,7 +25,7 @@ Nästa gång ska jag hitta ny font och försöka fina till om jag hittar något 
 Nationella prov
 
 ## Vecka 20
-
+Jag har gjort en logo till nav baren och fixat nya fonter till texten och rubrikerna. Sedan har jag fixat lite färger och annat.
 
 
 ## Vecka 21 Kristi himmels
